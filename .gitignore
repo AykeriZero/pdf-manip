@@ -1,0 +1,8 @@
+# virtual environments
+env/
+
+# Mac files
+.DS_Store
+
+# IDE configs
+.idea
