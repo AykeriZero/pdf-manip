@@ -8,7 +8,7 @@ import PyPDF2       # pdf processing
 @click.command()
 @click.option('-l', '--left', is_flag=True, help='Rotate left')
 @click.argument('input_pdf')
-def main(left, linput_pdf):
+def main(left, input_pdf):
     """Top Level Command Line Interface"""
 
     with open(input_pdf, 'rb') as pdf_in:
