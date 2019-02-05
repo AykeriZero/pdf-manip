@@ -19,9 +19,9 @@ def main(left, input_pdf):
             page = pdf_reader.getPage(pagenum)
             
             if (left):
-                page.rotateClockwise(90)
-            else:
                 page.rotateCounterClockwise(90)
+            else:
+                page.rotateClockwise(90)
 
             pdf_writer.addPage(page)
 
